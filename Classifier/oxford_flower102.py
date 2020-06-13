@@ -51,7 +51,7 @@ def solution_model():
             tf.keras.layers.Dense(102, activation='softmax')
         ]
     )
-    model.compile(optimizer=tf.optimizers.Adam(lr=5.435e-8), loss='categorical_crossentropy', metrics=['accuracy'])
+    model.compile(optimizer=tf.optimizers.Adam(lr=5.42e-6), loss='categorical_crossentropy', metrics=['accuracy'])
     model.summary()
 
     try:

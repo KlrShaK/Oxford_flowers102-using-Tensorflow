@@ -3,7 +3,6 @@ import tensorflow_datasets as tfds
 import matplotlib.pyplot as plt
 from acc_plotter import plot_accuracy
 from tensorflow.keras.applications.inception_v3 import InceptionV3
-from tensorflow.keras.applications.vgg16 import VGG16
 
 dataset_name = 'oxford_flowers102'
 
